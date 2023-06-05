@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* a */
+/* ul, ol */
+
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E0E8FF;
+    background-image: url('../images/main-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper-container {
+    max-width: 450px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+.wrapper-container-inner {
+    padding: 45px 48px 48px;
+    text-align: center;
+}
+
+.wrapper-title {
+    color:#1F2E55;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    margin-bottom: 17px;
+}
+
+.wrapper-text {
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color:#717FA6;
+}
+
+.wrapper-annual-plan {
+    background-color: #F7F9FF;
+    padding: 25px 24px;
+    display: flex;
+    align-items:center;
+    border-radius:11px;
+    margin-bottom: 32px;
+}
+
+.wrapper-annual-icon {
+    height: 48px;
+    width: 48px;
+    background-color:#DFE6FB;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:50%;
+    margin-right: 20px;
+}
+
+.wrapper-annaul-price {
+    margin-right: auto;
+}
+
+.wrapper-annual-price-title {
+    margin-bottom: 6px;
+    color:#1F2E55;
+    font-weight: 900;
+    line-height: 21px;
+}
+
+.wrapper-annual-price-info {
+    color:#717FA6;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.wrapper-annual-link {
+    color:#382AE1;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+}
+
+.wrapper-annual-link:hover{
+    color:#766CF1;
+}
+
+.wrapper-container-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-container-payment-btn {
+    margin-bottom: 32px;
+    background-color:#382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.wrapper-container-payment-btn:hover {
+    background-color: #766CF1;
+}
+
+.wrapper-container-cancel-btn {
+    color:#717FA6;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.wrapper-container-cancel-btn:hover {
+    color: #1F2E55;
+}
